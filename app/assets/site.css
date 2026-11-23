@@ -1,0 +1,84 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  color: #f2f1ed;
+  background: #121619;
+}
+
+body {
+  margin: 0;
+}
+
+.site {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: min(100%, 68rem);
+  min-height: 100svh;
+  margin-inline: auto;
+  padding: 1.5rem clamp(1.25rem, 6vw, 4rem);
+}
+
+.site-header {
+  padding-block-end: 0.75rem;
+  border-block-end: 1px solid #384147;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+}
+
+.languages a,
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: #c5ccd0;
+  text-underline-offset: 0.3em;
+}
+
+.languages a:not([aria-current='page']) {
+  text-decoration: none;
+}
+
+.languages a:hover,
+.languages a[aria-current='page'],
+.source-link {
+  color: #edba83;
+}
+
+a:focus-visible {
+  outline: 2px solid #edba83;
+  outline-offset: 4px;
+}
+
+.landing {
+  align-self: center;
+  padding-block: 4rem;
+}
+
+.landing h1 {
+  margin: 0;
+  font-family: ui-monospace, monospace;
+  font-size: clamp(4rem, 16vw, 11rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.08em;
+}
+
+.landing h1 span {
+  color: #edba83;
+}
+
+.landing-copy {
+  margin-block: 1.75rem 0.5rem;
+  color: #c5ccd0;
+  font-size: clamp(1.125rem, 2.7vw, 1.5rem);
+  line-height: 1.5;
+}
+
+.landing-copy p {
+  margin: 0;
+}
