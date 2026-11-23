@@ -11,4 +11,4 @@ Edit the landing copy in `content/landing/`. Run `npm run generate` to prerender
 
 ## Deploy
 
-From Fish, with `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` exported, run `npm run deploy`. Wrangler uploads the static files to the `23-11` Worker. The site is served at [23-11.leitwolf11.workers.dev](https://23-11.leitwolf11.workers.dev/).
+From Fish, with `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` exported, run `npm run deploy`. Wrangler uploads the static files to the `23-17` Worker. The site is served at [23-17.leitwolf11.workers.dev](https://23-17.leitwolf11.workers.dev/).

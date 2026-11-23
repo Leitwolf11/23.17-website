@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     experimental: { sqliteConnector: 'native' },
   },
   i18n: {
-    baseUrl: 'https://23-11.leitwolf11.workers.dev',
+    baseUrl: 'https://23-17.leitwolf11.workers.dev',
     defaultLocale: 'en',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false,
